@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="View.Interface">
+  <grid id="27dc6" binding="panel1" default-binding="true" layout-manager="GridLayoutManager" row-count="9" column-count="7" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="0" left="0" bottom="0" right="0"/>
+    <constraints>
+      <xy x="20" y="107" width="583" height="413"/>
+    </constraints>
+    <properties>
+      <font name="Arial" size="36" style="0"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <component id="7af97" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="1" column="1" row-span="1" col-span="4" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Yu Gothic UI Semibold" size="50" style="1"/>
+          <text value="SampleInterface"/>
+        </properties>
+      </component>
+      <component id="6503e" class="javax.swing.JLabel" binding="lblCardInfo">
+        <constraints>
+          <grid row="2" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Arial" size="36" style="1"/>
+          <text value="Kart Bilgileri"/>
+        </properties>
+      </component>
+      <component id="3a233" class="javax.swing.JLabel" binding="lblCardInfoAnswer">
+        <constraints>
+          <grid row="2" column="2" row-span="1" col-span="3" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Arial" size="36" style="0"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="8d08c" class="javax.swing.JLabel" binding="cryptokiVersion">
+        <constraints>
+          <grid row="3" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Arial" size="36" style="1"/>
+          <text value="Kriptoki Versiyonu"/>
+        </properties>
+      </component>
+      <component id="adec6" class="javax.swing.JLabel" binding="manufacturerID">
+        <constraints>
+          <grid row="4" column="1" row-span="2" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Arial" size="36" style="1"/>
+          <text value="Üretici Firma ID"/>
+        </properties>
+      </component>
+      <component id="435e8" class="javax.swing.JLabel" binding="manufacturerIDAnswer">
+        <constraints>
+          <grid row="4" column="2" row-span="2" col-span="4" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Arial" size="36" style="0"/>
+          <text value="Label"/>
+        </properties>
+      </component>
+      <component id="8b3dd" class="javax.swing.JLabel" binding="cryptokiVersionAnswer">
+        <constraints>
+          <grid row="3" column="2" row-span="1" col-span="4" vsize-policy="0" hsize-policy="0" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Arial" size="36" style="0"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <vspacer id="7e86">
+        <constraints>
+          <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </vspacer>
+      <hspacer id="2132">
+        <constraints>
+          <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </hspacer>
+      <component id="45c90" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="6" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Arial" size="36" style="1"/>
+          <name value="Pin:"/>
+          <text value="Pin:"/>
+        </properties>
+      </component>
+      <hspacer id="5437c">
+        <constraints>
+          <grid row="3" column="6" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </hspacer>
+      <component id="1b7b9" class="javax.swing.JButton" binding="EnterButton">
+        <constraints>
+          <grid row="7" column="2" row-span="1" col-span="4" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <actionCommand value="btn_login_action"/>
+          <font name="Arial" size="36"/>
+          <text value="Giriş"/>
+        </properties>
+      </component>
+      <vspacer id="ca5a3">
+        <constraints>
+          <grid row="8" column="1" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </vspacer>
+      <component id="ee9ad" class="javax.swing.JTextField" binding="pinTextField">
+        <constraints>
+          <grid row="6" column="2" row-span="1" col-span="4" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <font name="Arial" size="36"/>
+          <text value=""/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>
